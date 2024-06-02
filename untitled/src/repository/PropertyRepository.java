@@ -6,11 +6,15 @@ import model.SummerHouse;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Repository class for managing collections of different property types.
+ */
 public class PropertyRepository {
     private List<House> houses;
     private List<Villa> villas;
     private List<SummerHouse> summerHouses;
 
+    // Constructor to initialize the property lists with sample data
     public PropertyRepository() {
         houses = new ArrayList<>();
         villas = new ArrayList<>();
@@ -32,6 +36,7 @@ public class PropertyRepository {
         summerHouses.add(new SummerHouse(300000, 250, 6, 3));
     }
 
+    // Getters for the property lists
     public List<House> getHouseList() {
         return houses;
     }
