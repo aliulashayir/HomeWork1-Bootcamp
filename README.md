@@ -35,31 +35,6 @@ The Real Estate Management System is a Java application that manages different t
 
 - **Main.java**: Entry point of the application, demonstrating the functionality by calling methods from the `PropertyService` class.
 
-## Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- An IDE or text editor of your choice (e.g., IntelliJ IDEA, Eclipse, VS Code)
-
-### Installation
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/real-estate-management-system.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd real-estate-management-system
-    ```
-3. Open the project in your preferred IDE.
-
-## Usage
-
-1. Open the `Main.java` file in your IDE.
-2. Run the `Main` class.
-3. The console will display the results of various operations, including total prices and average square meters of different property types, as well as filtered properties based on the number of rooms and living rooms.
-
 ## Classes and Methods
 
 ### `model.Property`
